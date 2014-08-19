@@ -2,6 +2,9 @@
  * (c)2014 Jonathan Slattery
  */
 
+//Define a timewarp namespace for extensions
+var timewarp = (window.timewarp || {});
+
 /* Extending the base Built-in Date class with an isDate(d) detection method to identify date objects...
  */
 
